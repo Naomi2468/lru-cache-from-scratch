@@ -47,9 +47,8 @@ python test_lru_cache.py
 python benchmark.py
 
 ## Example Benchmark Output
-Operations: 300000
-Capacity: 20000
-Elapsed time: 0.42 seconds
-Approximate throughput: ~700k ops/sec
+ops=300,000 capacity=20,000 key_space=80,000 get_ratio=0.70
+time=0.233s  ops/sec=1,289,344
+final cache size=20,000
 
 
